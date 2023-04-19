@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1FB8B029F00E9900D9E7D2 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FB8AF29F00E9900D9E7D2 /* PhotosCollectionViewController.swift */; };
 		ABAD0DF229ED869400B9BCB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD0DF129ED869400B9BCB6 /* AppDelegate.swift */; };
 		ABAD0DF429ED869400B9BCB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD0DF329ED869400B9BCB6 /* SceneDelegate.swift */; };
 		ABAD0DF629ED869400B9BCB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD0DF529ED869400B9BCB6 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB1FB8AF29F00E9900D9E7D2 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		ABAD0DEE29ED869400B9BCB6 /* PhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAD0DF129ED869400B9BCB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABAD0DF329ED869400B9BCB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				ABAD0DFA29ED869600B9BCB6 /* Assets.xcassets */,
 				ABAD0DFC29ED869600B9BCB6 /* LaunchScreen.storyboard */,
 				ABAD0DFF29ED869600B9BCB6 /* Info.plist */,
+				AB1FB8AF29F00E9900D9E7D2 /* PhotosCollectionViewController.swift */,
 			);
 			path = PhotoLibrary;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				ABAD0DF629ED869400B9BCB6 /* ViewController.swift in Sources */,
 				ABAD0DF229ED869400B9BCB6 /* AppDelegate.swift in Sources */,
 				ABAD0DF429ED869400B9BCB6 /* SceneDelegate.swift in Sources */,
+				AB1FB8B029F00E9900D9E7D2 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.kaznacheev.PhotoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.kaznacheev.PhotoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
